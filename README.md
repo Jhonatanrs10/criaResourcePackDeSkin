@@ -5,4 +5,5 @@ Crie uma pasta ao lado do arquivo "criaResourcePackDeSkin.sh" com o nome "Skins"
 após execução uma pasta de nome resourcepacks sera criada com os arquivos zip dentro
 
 Execução Linux
-Minecraft 1.8
+Minecraft 1.7 e 1.8
+
