@@ -1,8 +1,8 @@
 # criaResourcePackDeSkin
-Cria um resourcepack.zip das skins.png colocadas na pasta Skin
+Cria um resourcepack.zip das skins.png
 
-Criar no mesmo diretorio uma pasta com nome de "Skins" onde sera colocada as mesmas
-após execução uma pasta de nome resourcepacks sera criada com os arquivos zip dentro.
+Crie uma pasta ao lado do arquivo "criaResourcePackDeSkin.sh" com o nome "Skins" e coloque todas as skins.png 
+após execução uma pasta de nome resourcepacks sera criada com os arquivos zip dentro
 
 Execução Linux
 Minecraft 1.8
