@@ -20,6 +20,15 @@ criaPackMCMeta(){
 	}' >> pack.mcmeta
 }
 
+crop1ponto7(){
+	# usando o ImageMagick cortamos a imagem para a versão 1.7 64x32 px
+	sudo apt-get install imagemagick
+	for skin in `ls Skins`
+	do
+		convert Skins/$skin -crop 64x64+0-32 Skins/$skin
+	done
+}
+
 criaResources(){
 	for skin in `ls Skins`
 	do
@@ -38,6 +47,7 @@ criaResources(){
 		rm -r novaSource
 	done
 }
+crop1ponto7
 criaResources
 
 
